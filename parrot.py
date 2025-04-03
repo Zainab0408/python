@@ -1,4 +1,5 @@
-class rabbit:
+class parrot:
+    species="bird"
     def __init__(self,name,age):
         self.name=name
         self.age=age
@@ -9,11 +10,11 @@ class rabbit:
         print("{} sings a {}".format(self.name,song))
     def sing(self):
         print("{} is now dancing {}".format(self.name))
-bunny=rabbit("bunny",2)
-snowball=rabbit("snowball",1)
-bunny.printinfo()
-bunny.sing("happy note")
-bunny.dance()
-snowball.printinfo()
-snowball.sing("happy note")
-snowball.dance()
+coco=parrot("coco",2)
+floof=parrot("floof",1)
+coco.printinfo()
+coco.sing("happy note")
+coco.dance()
+floof.printinfo()
+floof.sing("happy note")
+floof.dance()
